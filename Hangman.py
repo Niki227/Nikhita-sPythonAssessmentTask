@@ -1,7 +1,7 @@
 def hangman_game():
     import os # clear statement
     os.system('cls')
-    
+
     import time
 
     print(" ------------------------------------------------") 
@@ -73,7 +73,7 @@ def hangman_game():
             break
 
         # Code for guessing
-        guess = input("guess a character:")
+        guess = input("Guess a character:")
         guesses += guess
 
         # Code for if the guess is wrong
