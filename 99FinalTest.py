@@ -182,7 +182,7 @@ def my_function9 ():
 
     for x in word:
         encode = chr(ord(x)+1)
-        print(x, "=", encode, sep='')
+        print(x, "=", encode, sep='') # seperate command gets rid of the space between the variables and quoted text
         ascii += encode
         print(ascii)
     print("")
