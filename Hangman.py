@@ -1,5 +1,7 @@
 def hangman_game():
-
+    import os # clear statement
+    os.system('cls')
+    
     import time
 
     print(" ------------------------------------------------") 
