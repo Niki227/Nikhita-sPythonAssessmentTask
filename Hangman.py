@@ -87,6 +87,7 @@ def hangman_game():
             if turns == 0:
                 print("")
                 print("Oh no!!", name, "You Lose")
+                print(word)
                 break
                 
 hangman_game()
