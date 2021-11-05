@@ -182,7 +182,7 @@ def my_function9 ():
 
     for x in word:
         encode = chr(ord(x)+1)
-        print(x, "=", encode) # I don't know to get rid of the space between the '=' and the variables
+        print(x, "=", encode, sep='')
         ascii += encode
         print(ascii)
     print("")
