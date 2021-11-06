@@ -25,7 +25,7 @@ def hangman_game():
             'cutlery', 'beach', 'examine', 'suffering',
             'sensei', 'logic', 'bubbles', 'cornflour', 
             'determined', 'mitochondria', 'academia', 
-            'titans', 'hangman', 'emergency' ]
+            'titans', 'hangman', 'emergency', 'amogus' ]
 
     # Chooses one random word from the list
     word = random.choice(words)
@@ -87,7 +87,8 @@ def hangman_game():
             if turns == 0:
                 print("")
                 print("Oh no!!", name, "you lose :(")
-                print(word)
+                print("")
+                print("The word was", word)
                 break
                 
 hangman_game()
