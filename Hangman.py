@@ -21,7 +21,7 @@ def hangman_game():
     print("Hello", name, "and I hope you are ready for a game of hangman!!")
 
     # List of words
-    words = ['cheese', 'monke', 'Poopyfarts', 'nuts',
+    words = ['cheese', 'monke', 'poopyfarts', 'nuts',
             'cutlery', 'beach', 'examine', 'suffering',
             'sensei', 'logic', 'bubbles', 'cornflour', 
             'determined', 'mitochondria', 'academia', 
